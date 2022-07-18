@@ -1,0 +1,51 @@
+@import "variables";
+
+
+.btn{
+  color: $white;
+  font-weight: 800;
+  font-size: 1.6rem;
+  text-transform: uppercase;
+
+  padding: 1.5rem 7.5rem;
+  transition: all .3s;
+  background-color: $black;
+  cursor: pointer;
+  &:hover{
+      background-color: $black;
+  }
+  &:active {
+      background-color: $yellow;
+      transform: translateY(1px);
+  }
+  &--black {
+    background-color: $black;
+  }
+  &--yellow {
+    background-color: $yellow;
+  }
+}
+@media screen and (max-width: 1500px){
+  .btn{
+    padding: 1.2rem 5.6rem 1.2rem 5.6rem;
+    &--black {
+      background-color: $black;
+    }
+    &--yellow {
+      background-color: $yellow;
+      padding: 1rem 0.9rem;
+    }
+  }
+}
+.crumbs-menu{
+  span{
+    &:hover {
+      opacity: 0.9;
+      color: $red;
+      cursor: pointer;
+    }
+  }
+}
+
+
+
