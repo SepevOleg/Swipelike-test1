@@ -42,21 +42,25 @@
 }
 @media screen and (max-width: 768px){
     .container{
-      min-width: 280px;
+        min-width: 268px;
     }
     .main__cards {
         padding-top: 3.2rem;
         &__img{
             width: 28.1rem;
-        height: 15.2rem;
+            height: 15.2rem;
         }
         &__menu{
             flex-wrap: wrap;
                 gap: 1.9rem;
         }
+        &__container{
+            width: 28.1rem;
+            height: 15.2rem;
+        }
         &__content{
-            top: 32%;
-            width: 47.60%;
+            top: -35%;
+            width: 100%;
             align-items: center;
             position: relative;
             padding: 0.3rem 2.2rem 0.6rem 2.1rem;
