@@ -1,0 +1,33 @@
+@import "variables";
+
+
+.btn {
+  padding: 1rem 7.5rem;
+  color: #fff;
+  font-size: 1.8rem;
+  text-align: center;
+  &--black {
+    background-color: $black;
+  }
+  &--yellow {
+    background-color: $yellow;
+  }
+}
+.crumbs-menu{
+  span{
+    &:hover {
+      opacity: 0.9;
+      color: $red;
+      cursor: pointer;
+    }
+  }
+}
+
+@media (max-width: 768px) {
+  .btn {
+    width: 10px;
+  } 
+}
+
+
+
